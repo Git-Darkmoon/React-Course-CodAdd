@@ -1,18 +1,10 @@
-import Navbar from "./tutorial/04-project-structure/starter/Navbar"
-import {
-  Home,
-  About,
-  Contact,
-} from "./tutorial/04-project-structure/starter/Pages"
+import List from "./tutorial/05-leverage-javascript/starter/List"
 
 function App() {
   return (
     <div className="container">
-      <h2>Advanced React</h2>
-      <Navbar />
-      <Home />
-      <About />
-      <Contact />
+      <h2>Leverage JS</h2>
+      <List />
     </div>
   )
 }
