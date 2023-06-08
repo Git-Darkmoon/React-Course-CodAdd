@@ -66,8 +66,8 @@ html {
 
 body {
   background: var(--backgroundColor);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -326,7 +326,7 @@ nav {
   }
   .links {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .links a {
     padding: 0;
@@ -337,7 +337,7 @@ nav {
   }
   .social-icons {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .social-icons a {
     color: var(--primary-500);

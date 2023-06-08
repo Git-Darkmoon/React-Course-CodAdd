@@ -1,4 +1,8 @@
+import { useGlobalContext } from "./Context"
+
 const App = () => {
-  return <h2>Strapi Starter</h2>;
-};
-export default App;
+  const { isSidebarOpen } = useGlobalContext()
+
+  return <h2>Strapi Starter</h2>
+}
+export default App
