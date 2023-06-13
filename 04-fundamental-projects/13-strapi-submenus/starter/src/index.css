@@ -66,8 +66,8 @@ html {
 
 body {
   background: var(--backgroundColor);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -324,7 +324,7 @@ Hero
   line-height: 1.5;
 }
 
-@media screen and (min-width: 992px) {
+@media (width >= 992px) {
   .hero-center {
     text-align: center;
   }
@@ -353,12 +353,12 @@ Sidebar
   /* toggle */
   opacity: 0;
   visibility: hidden;
+  transition-duration: 0.5s;
 }
 .show-sidebar {
   opacity: 1;
   visibility: visible;
   transition-property: opacity;
-  transition-duration: 1s;
 }
 /* toggle class */
 
