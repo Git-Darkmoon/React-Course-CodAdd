@@ -1,4 +1,4 @@
-import Application from "./tutorial/11-performance/starter/01-lower-state"
+import Application from "./tutorial/11-performance/starter/03-hooks"
 
 function App() {
   return (
