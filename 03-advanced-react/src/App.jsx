@@ -1,4 +1,4 @@
-import Application from "./tutorial/10-useReducer/starter/01-useReducer"
+import Application from "./tutorial/11-performance/starter/01-lower-state"
 
 function App() {
   return (
