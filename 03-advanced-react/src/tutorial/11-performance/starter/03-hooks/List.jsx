@@ -7,11 +7,11 @@ import Item from "./Person"
 // are changing, IF THEY'RE NOT, then it don't generate
 // the re-render for that component
 
-const List = ({ people }) => {
+const List = ({ people, removePerson }) => {
   return (
     <div>
       {people.map((person) => {
-        return <Item key={person.id} {...person} />
+        return <Item key={person.id} {...person} removePerson={removePerson} />
       })}
     </div>
   )
