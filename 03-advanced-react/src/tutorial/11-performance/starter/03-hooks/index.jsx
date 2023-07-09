@@ -1,9 +1,13 @@
-import { useState, useCallback } from "react"
+import { useState, useCallback, useMemo } from "react"
 import { data } from "../../../../data"
 import List from "./List"
+import SlowFunction from "./SlowFunction"
 const LowerState = () => {
   const [people, setPeople] = useState(data)
   const [count, setCount] = useState(0)
+
+  const value = useMemo(() => SlowFunction(), [])
+  console.log(value)
 
   // useCallback uses a syntax similar to the usEffect
   // where it receives a function and a dependency

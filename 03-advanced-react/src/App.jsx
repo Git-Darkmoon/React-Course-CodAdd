@@ -1,4 +1,4 @@
-import Application from "./tutorial/11-performance/starter/03-hooks"
+import Application from "./tutorial/11-performance/starter/04-react-18"
 
 function App() {
   return (
