@@ -12,7 +12,11 @@ const Submenu = () => {
     const { left, right, bottom } = submenu.getBoundingClientRect();
     const { clientX, clientY } = event;
 
+<<<<<<< HEAD
     if (clientX < left - 1 || clientX > right - 1 || clientY > bottom - 1) {
+=======
+    if (clientX < left + 1 || clientX > right - 1 || clientY > bottom - 1) {
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
       setPageId(null);
     }
   };

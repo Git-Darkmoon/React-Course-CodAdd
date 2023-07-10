@@ -66,8 +66,13 @@ html {
 
 body {
   background: var(--backgroundColor);
+<<<<<<< HEAD
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+=======
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -324,7 +329,11 @@ Hero
   line-height: 1.5;
 }
 
+<<<<<<< HEAD
 @media (width >= 992px) {
+=======
+@media screen and (min-width: 992px) {
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   .hero-center {
     text-align: center;
   }
@@ -353,12 +362,19 @@ Sidebar
   /* toggle */
   opacity: 0;
   visibility: hidden;
+<<<<<<< HEAD
   transition-duration: 0.5s;
+=======
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 }
 .show-sidebar {
   opacity: 1;
   visibility: visible;
   transition-property: opacity;
+<<<<<<< HEAD
+=======
+  transition-duration: 1s;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 }
 /* toggle class */
 

@@ -10,7 +10,11 @@
 
 html {
   font-size: 100%;
+<<<<<<< HEAD
 } /*1rem*/
+=======
+} /*16px*/
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 
 :root {
   /* colors */
@@ -43,11 +47,16 @@ html {
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
 
+<<<<<<< HEAD
   --small-text: 14px;
+=======
+  --small-text: 0.875rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   --extra-small-text: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
+<<<<<<< HEAD
   --borderRadius: 4px;
   --letterSpacing: 0.0625rem;
   --transition: 0.3s ease-in-out all;
@@ -63,12 +72,33 @@ html {
     0 0.25rem 0.375rem -0.125rem rgba(0, 0, 0, 0.05);
   --shadow-4: 0 1.25rem 1.5625rem -0.3125rem rgba(0, 0, 0, 0.1),
     0 0.625rem 0.625rem -0.3125rem rgba(0, 0, 0, 0.04);
+=======
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
+
+  /* box shadow*/
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 }
 
 body {
   background: var(--backgroundColor);
+<<<<<<< HEAD
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+=======
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -90,6 +120,7 @@ h5 {
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 48.832px;
 }
 
@@ -111,6 +142,29 @@ h5 {
 
 .text {
   margin-bottom: 24px;
+=======
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.text {
+  margin-bottom: 1.5rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   max-width: 40em;
 }
 
@@ -141,7 +195,11 @@ ul {
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
+<<<<<<< HEAD
   padding: 6px 12px;
+=======
+  padding: 0.375rem 0.75rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
@@ -165,8 +223,13 @@ ul {
 
 /* alerts */
 .alert {
+<<<<<<< HEAD
   padding: 6px 12px;
   margin-bottom: 16px;
+=======
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   border-color: transparent;
   border-radius: var(--borderRadius);
 }
@@ -187,19 +250,29 @@ ul {
   background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
+<<<<<<< HEAD
   padding: 32px 40px;
   margin: 48px auto;
+=======
+  padding: 2rem 2.5rem;
+  margin: 3rem auto;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 }
 .form-label {
   display: block;
   font-size: var(--small-text);
+<<<<<<< HEAD
   margin-bottom: 8px;
+=======
+  margin-bottom: 0.5rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
 .form-input,
 .form-textarea {
   width: 100%;
+<<<<<<< HEAD
   padding: 6px 12px;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
@@ -212,6 +285,20 @@ ul {
 
 .form-textarea {
   height: 112px;
+=======
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--borderRadius);
+  background: var(--backgroundColor);
+  border: 1px solid var(--grey-200);
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+.form-textarea {
+  height: 7rem;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 }
 ::placeholder {
   font-family: inherit;
@@ -231,9 +318,15 @@ ul {
 }
 
 .loading {
+<<<<<<< HEAD
   width: 96px;
   height: 96px;
   border: 0.3125rem solid var(--grey-400);
+=======
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   border-radius: 50%;
   border-top-color: var(--primary-500);
   animation: spinner 0.6s linear infinite;
@@ -248,6 +341,7 @@ ul {
 
 .title-underline {
   background: var(--primary-500);
+<<<<<<< HEAD
   width: 112px;
   height: 4px;
   margin: 0 auto;
@@ -359,3 +453,11 @@ nav {
     color: var(--primary-300);
   }
 }
+=======
+  width: 7rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+/* ============= PROJECT CSS =============== */
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

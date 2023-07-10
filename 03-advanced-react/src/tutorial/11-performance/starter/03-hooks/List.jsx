@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { memo } from "react"
 import Item from "./Person"
 
@@ -20,3 +21,17 @@ const List = ({ people, removePerson }) => {
 // Here's an example of how it is used.
 
 export default memo(List)
+=======
+import Item from './Person';
+
+const List = ({ people }) => {
+  return (
+    <div>
+      {people.map((person) => {
+        return <Item key={person.id} {...person} />;
+      })}
+    </div>
+  );
+};
+export default List;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

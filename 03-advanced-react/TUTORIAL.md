@@ -1799,7 +1799,11 @@ const MultipleInputs = () => {
             onChange={handleChange}
           />
         </div>
+<<<<<<< HEAD
         {/* email */}
+=======
+        {/* password */}
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
         <div className='form-row'>
           <label htmlFor='password' className='form-label'>
             Password
@@ -1936,7 +1940,11 @@ const UncontrolledInputs = () => {
           </label>
           <input type='email' className='form-input' id='email' name='email' />
         </div>
+<<<<<<< HEAD
         {/* email */}
+=======
+        {/* password */}
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
         <div className='form-row'>
           <label htmlFor='password' className='form-label'>
             Password

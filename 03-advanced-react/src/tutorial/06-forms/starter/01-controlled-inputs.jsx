@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react"
 
 const ControlledInputs = () => {
@@ -52,3 +53,9 @@ const ControlledInputs = () => {
   )
 }
 export default ControlledInputs
+=======
+const ControlledInputs = () => {
+  return <h2>Controlled Inputs</h2>;
+};
+export default ControlledInputs;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

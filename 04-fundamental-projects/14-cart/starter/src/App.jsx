@@ -1,4 +1,5 @@
 // components
+<<<<<<< HEAD
 import Navbar from "./Navbar"
 import CartContainer from "./CartContainer"
 import { useGlobalContext } from "./context"
@@ -14,12 +15,25 @@ function App() {
     )
   }
 
+=======
+import Navbar from './Navbar';
+import CartContainer from './CartContainer';
+
+function App() {
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
   return (
     <main>
       <Navbar />
       <CartContainer />
     </main>
+<<<<<<< HEAD
   )
 }
 
 export default App
+=======
+  );
+}
+
+export default App;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

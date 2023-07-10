@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react"
 
 const UncontrolledInputs = () => {
@@ -49,10 +50,58 @@ const UncontrolledInputs = () => {
         </div>
 
         <button type="submit" className="btn btn-block">
+=======
+import { useState } from 'react';
+
+const UncontrolledInputs = () => {
+  const [value, setValue] = useState(0);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+  return (
+    <div>
+      <form className='form' onSubmit={handleSubmit}>
+        <h4>Form Data API</h4>
+        {/* name */}
+        <div className='form-row'>
+          <label htmlFor='name' className='form-label'>
+            name
+          </label>
+          <input type='text' className='form-input' id='name' name='name' />
+        </div>
+        {/* email */}
+        <div className='form-row'>
+          <label htmlFor='email' className='form-label'>
+            Email
+          </label>
+          <input type='email' className='form-input' id='email' name='email' />
+        </div>
+        {/* email */}
+        <div className='form-row'>
+          <label htmlFor='password' className='form-label'>
+            Password
+          </label>
+          <input
+            type='password'
+            className='form-input'
+            id='password'
+            name='password'
+          />
+        </div>
+
+        <button type='submit' className='btn btn-block'>
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
           submit
         </button>
       </form>
     </div>
+<<<<<<< HEAD
   )
 }
 export default UncontrolledInputs
+=======
+  );
+};
+export default UncontrolledInputs;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react"
 const frameworks = ["react", "angular", "vue", "svelte"]
 
@@ -49,10 +50,35 @@ function OtherInputs() {
           </select>
         </div>
         <button type="submit" className="btn btn-block">
+=======
+import { useState } from 'react';
+const frameworks = ['react', 'angular', 'vue', 'svelte'];
+const OtherInputs = () => {
+  return (
+    <div>
+      <form className='form'>
+        <h4>Other Inputs</h4>
+        {/* name */}
+        <div className='form-row' style={{ textAlign: 'left' }}>
+          <label htmlFor='shipping'> Free Shipping </label>
+        </div>
+        <div className='form-row' style={{ textAlign: 'left' }}>
+          <label htmlFor='framework' className='form-label'>
+            Framework
+          </label>
+        </div>
+        <button type='submit' className='btn btn-block'>
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
           submit
         </button>
       </form>
     </div>
+<<<<<<< HEAD
   )
 }
 export default OtherInputs
+=======
+  );
+};
+export default OtherInputs;
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2

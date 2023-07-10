@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+## Figma URL
+
+[Tours](https://www.figma.com/file/OnLoM3AzBFaHzSc2iolJS0/Tours?node-id=0%3A1&t=wiRXOlTLN5ehekYI-1)
+
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
 ## Steps
 
 #### Setup

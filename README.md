@@ -10,4 +10,9 @@ The content is part of my React Course. If you enjoy the content and my teaching
 
 #### Support
 
+<<<<<<< HEAD
 Don't want to enroll in the course, but still find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga) and/or "star" this repo :)
+=======
+Don't want to enroll in the course, but still find the Content Useful?<br>
+[You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga) and/or "star" this repo :)
+>>>>>>> 22b8c352317b1341fd718586d8f3e0a8798fbde2
