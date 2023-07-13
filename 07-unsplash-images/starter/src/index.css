@@ -62,8 +62,8 @@ html {
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   /* dark mode setup */
 
-  --dark-mode-bg-color: #333;
-  --dark-mode-text-color: #eee;
+  --dark-mode-bg-color: var(--black);
+  --dark-mode-text-color: var(--grey-50);
 
   --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
