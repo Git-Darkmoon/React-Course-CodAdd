@@ -1,4 +1,12 @@
+import Hero from "./Components/Hero"
+import Projects from "./Components/Projects"
+
 const App = () => {
-  return <h1>Contentful Starter</h1>;
-};
-export default App;
+  return (
+    <main>
+      <Hero />
+      <Projects />
+    </main>
+  )
+}
+export default App
