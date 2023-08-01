@@ -1,5 +1,5 @@
 import axios from "axios"
-import { Link, useLoaderData } from "react-router-dom"
+import { Link, Navigate, useLoaderData } from "react-router-dom"
 import CocktailDiv from "../assets/wrappers/CocktailPage"
 
 const singleCocktailUrl =
@@ -16,6 +16,9 @@ export const loader = async ({ params }) => {
 function Cocktail() {
   const { id, data } = useLoaderData()
 
+  // if (!data) return <h2>Something went wrong...</h2>
+  if (!data) return <Navigate to={"/"} />
+
   const singleDrink = data.drinks[0]
   const {
     strDrink: name,
@@ -25,6 +28,20 @@ function Cocktail() {
     strGlass: glass,
     strInstructions: instructions,
   } = singleDrink
+
+  // Object.keys will return an array with the keys
+  // of the object passed as parameter.
+
+  const validIngredients = Object.keys(singleDrink).filter((eachKey) => {
+    return eachKey.startsWith("strIngredient") && singleDrink[eachKey] !== null
+  })
+  // console.log(validIngredients)
+
+  const validIngredientValues = validIngredients.map(
+    (eachKey) => singleDrink[eachKey]
+  )
+
+  // console.log(validIngredientValues)
 
   return (
     <CocktailDiv>
@@ -50,6 +67,10 @@ function Cocktail() {
           <p>
             <span className="drink-data">glass:</span>
             {glass}
+          </p>
+          <p>
+            <span className="drink-data">ingredients:</span>
+            {validIngredientValues.join(", ")}
           </p>
           <p>
             <span className="drink-data">instructions:</span>
