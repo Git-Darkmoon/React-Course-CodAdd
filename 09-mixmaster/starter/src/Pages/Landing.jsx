@@ -14,7 +14,7 @@ export const loader = async () => {
 
 function Landing() {
   const { drinks, searchTerm } = useLoaderData()
-  console.log(drinks)
+  // console.log(drinks)
 
   return (
     <>
