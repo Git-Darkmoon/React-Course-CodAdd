@@ -11,7 +11,13 @@ function HomeLayout() {
     <>
       <Navbar />
       <section className="page">
-        {isPageLoading ? <div className="loading"></div> : <Outlet />}
+        {isPageLoading ? (
+          <div className="loadingContainer">
+            <div className="loading"></div>
+          </div>
+        ) : (
+          <Outlet />
+        )}
       </section>
     </>
   )
