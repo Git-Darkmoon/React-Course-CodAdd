@@ -1,6 +1,17 @@
+import { Form } from "react-router-dom"
+
+export const action = async ({ request }) => {
+  // React Router FormData API
+  const formData = await request.formData()
+  const data = Object.fromEntries(formData)
+  // console.log(data)
+
+  return null
+}
+
 function Newsletter() {
   return (
-    <form className="form">
+    <Form className="form" method="POST">
       <h4 style={{ textAlign: "center", marginBottom: "2rem" }}>
         our newsletter
       </h4>
@@ -15,6 +26,7 @@ function Newsletter() {
           id="name"
           className="form-input"
           defaultValue={"jhon"}
+          required
         />
       </div>
       {/* lastName */}
@@ -28,6 +40,7 @@ function Newsletter() {
           id="lastName"
           className="form-input"
           defaultValue={"smith"}
+          required
         />
       </div>
       {/* email */}
@@ -41,6 +54,7 @@ function Newsletter() {
           id="email"
           className="form-input"
           defaultValue={"js@test.com"}
+          required
         />
       </div>
       <button
@@ -50,7 +64,7 @@ function Newsletter() {
       >
         Submit
       </button>
-    </form>
+    </Form>
   )
 }
 export default Newsletter
